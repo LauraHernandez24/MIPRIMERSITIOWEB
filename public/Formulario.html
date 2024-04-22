@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu psicologa personal</title>
+    <link rel="icon" href="images/pencil.png" type="img/png">
+    <!-- Enlace al CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Tu psicologa personal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Quien soy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Contactame</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Formulario.html">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Administrador.html">Administrador</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<body>
+    <!-- Contenido del formulario -->
+    <div class="container mt-4">
+        <h1>Formulario de Registro</h1>
+        <form id="formulario" action="/submit" method="post">
+            <label for="Num_Documento">Número de Documento:</label>
+            <input type="text" id="Num_Documento" name="Num_Documento" required><br>
+
+            <label for="T_Documento">Tipo de Documento:</label>
+            <select id="T_Documento" name="T_Documento" required>
+                <option value="CC">Cedula de Ciudadania</option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="RC">Registro Civil</option>
+                <option value="PA">Pasaporte</option>
+                <option value="CE">Cedula de Extrangeria</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+
+            <label for="Nombre_1">Primer Nombre:</label>
+            <input type="text" id="Nombre_1" name="Nombre_1" required><br>
+
+            <label for="Nombre_2">Segundo Nombre:</label>
+            <input type="text" id="Nombre_2" name="Nombre_2"><br>
+
+            <label for="Apellido_1">Primer Apellido:</label>
+            <input type="text" id="Apellido_1" name="Apellido_1" required><br>
+
+            <label for="Apellido_2">Segundo Apellido:</label>
+            <input type="text" id="Apellido_2" name="Apellido_2"><br>
+
+            <label for="Edad">Edad:</label>
+            <input type="number" id="Edad" name="Edad" required><br>
+
+            <label for="Fecha_Nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="Fecha_Nacimiento" name="Fecha_Nacimiento" required><br>
+
+            <label for="Genero">Género:</label>
+            <select id="Genero" name="Genero" required>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br>
+
+            <label for="Direccion">Dirección:</label>
+            <input type="text" id="Direccion" name="Direccion" required><br>
+
+            <label for="Celular">Celular:</label>
+            <input type="text" id="Celular" name="Celular" required><br>
+
+            <label for="E-mail">Email:</label>
+            <input type="email" id="E-mail" name="E-mail" required><br>
+
+            <label for="Password">Contraseña:</label>
+            <input type="password" id="Password" name="Password" required><br>
+
+            <label for="Perfil">Perfil:</label>
+            <select id="Perfil" name="Perfil" required>
+                <option value="Usuario">Usuario</option>
+                <option value="Admin">Administrador</option>
+            </select><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Enlaces a los scripts de jQuery, Popper.js y Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+	
