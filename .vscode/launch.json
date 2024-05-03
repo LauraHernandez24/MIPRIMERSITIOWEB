@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\ybeni\\OneDrive\\Escritorio\\MiPrimerSitioWeb\\public\\index.html"
+            "file": "C:\\Users\\familiamojica\\Desktop\\MiPrimerSitioWeb>\\public\\index.html"
         }
     ]
 }

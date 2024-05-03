@@ -31,11 +31,6 @@ p {
     color: #666666;
 }
 
-.footer {
-    background-color: #343a40;
-    color: #ffffff;
-}
-
 .footer h3 {
     color: #ffffff;
 }
@@ -43,6 +38,23 @@ p {
 .footer a:hover {
     color: #ffcc00;
 }
+/* Estilos para el footer */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    color: #ffffff;
+}
+
 
 /* Estilos específicos para tablas */
 .table {
@@ -110,4 +122,12 @@ p {
     background-color: #9fcdff;
 }
 
-/* Otros estilos específicos de la tabla si los necesitas */
+.section-heading {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    color: #666666;
+    font-size: 16px;
+}
