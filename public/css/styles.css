@@ -31,6 +31,14 @@ p {
     color: #666666;
 }
 
+<<<<<<< HEAD
+=======
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+>>>>>>> faa1cdb0cc1cfb5c14d7034c902b41b14916aa0c
 .footer h3 {
     color: #ffffff;
 }
@@ -38,6 +46,7 @@ p {
 .footer a:hover {
     color: #ffcc00;
 }
+<<<<<<< HEAD
 /* Estilos para el footer */
 .footer {
     background-color: #343a40;
@@ -55,6 +64,8 @@ p {
     color: #ffffff;
 }
 
+=======
+>>>>>>> faa1cdb0cc1cfb5c14d7034c902b41b14916aa0c
 
 /* Estilos específicos para tablas */
 .table {
@@ -122,6 +133,7 @@ p {
     background-color: #9fcdff;
 }
 
+<<<<<<< HEAD
 .section-heading {
     color: #333333;
     margin-bottom: 20px;
@@ -131,3 +143,6 @@ p {
     color: #666666;
     font-size: 16px;
 }
+=======
+/* Otros estilos específicos de la tabla si los necesitas */
+>>>>>>> faa1cdb0cc1cfb5c14d7034c902b41b14916aa0c
